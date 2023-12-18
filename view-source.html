@@ -14,12 +14,12 @@
 -->
 <head>
 
-    <!-- SERVER LOCATION sis-sscappprd03.as.it.ubc.ca -->
+    <!-- SERVER LOCATION sis-sscappprd02.as.it.ubc.ca -->
 
     <head>
 
         <!-- jQuery is required for important messages popup -->
-        <script type="text/javascript" src="/shared/scripts/jquery-1.8.3.min.js"></script>
+        <script type="text/javascript" src="/static/shared/scripts/jquery-1.8.3.min.js"></script>
 
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta charset="utf-8">
@@ -30,12 +30,12 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <link rel="stylesheet" type="text/css" href="/ssc/css/ssc.css?v=" media="screen" />
-        <link rel="stylesheet" type="text/css" href="/admissions/stylesheets/smoothness/jquery-ui-1.8.14.custom.css" />
+        <link rel="stylesheet" type="text/css" href="/static/ssc/css/ssc.css?v=" media="screen" />
+        <link rel="stylesheet" type="text/css" href="/static/admissions/stylesheets/smoothness/jquery-ui-1.8.14.custom.css" />
 
         <!-- Stylesheets -->
-        <link href="/ubcclf/7.0.4/css/ubc-clf-full.min.css" rel="stylesheet">
-        <link href="/ubcclf/7.0.4/css/unit.css" rel="stylesheet">
+        <link href="/static/ubcclf/7.0.4/css/ubc-clf-full.min.css" rel="stylesheet">
+        <link href="/static/ubcclf/7.0.4/css/unit.css" rel="stylesheet">
         <!--[if lte IE 7]>
         <link href="/static/ubcclf/7.0.4/css/font-awesome-ie7.css" rel="stylesheet">
         <![endif]-->
@@ -45,7 +45,7 @@
         <![endif]-->
 
         <!-- Fav and touch icons -->
-        <link rel="shortcut icon" href="/ubcclf/7.0.4/img/favicon.ico">
+        <link rel="shortcut icon" href="/static/ubcclf/7.0.4/img/favicon.ico">
         <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/static/ubcclf/7.0.4/img/apple-touch-icon-144-precomposed.png">
         <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/static/ubcclf/7.0.4/img/apple-touch-icon-114-precomposed.png">
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/static/ubcclf/7.0.4/img/apple-touch-icon-72-precomposed.png">
@@ -112,7 +112,7 @@
                             <b>
                             Name: </b>Guo, Junyi
                             &nbsp;&nbsp;&nbsp;<b>Student #: </b>10165892</span>
-                <a href="/sscportal/servlets/SSCMain.jsp"><span id="ubc7-unit-identifier">Student Service Centre</span></a>
+                <a href="error.html"><span id="ubc7-unit-identifier">Student Service Centre</span></a>
                 <span class="label-warning"></span>
 
             </div>
@@ -205,7 +205,7 @@
 
                         <li class="dropdown ">
                             <div class="btn-group">
-                                <a  href="/sscportal/servlets/ServiceTicketServer?service=https://courses.students.ubc.ca/cs/secure/login?serviceType=courses" target="SSCFunctionWindow""  title="Registration" class="btn">Registration</a>
+                                <a  href="error.html" target="SSCFunctionWindow"  title="Registration" class="btn">Registration</a>
                                 <button class="btn dropdown-toggle" data-toggle="dropdown">
                                     <span class="ubc7-arrow blue down-arrow"></span>
                                 </button>
@@ -221,9 +221,9 @@
 
                                     <li><a  href="error.html" target="SSCFunctionWindow"  title="Standard Timetables" >Standard Timetables</a></li>
 
-                                    <li><a  href="error.html" target="SSCFunctionWindow"  title="Timetable" >Timetable</a></li>
+                                    <li><a  href="error.html" target="SSCFunctionWindow""  title="Timetable" >Timetable</a></li>
 
-                                    <li><a  href="error.html" target="SSCFunctionWindow"  title="Specialization List" >Specialization List</a></li>
+                                    <li><a  href="error.html" target="SSCFunctionWindow""  title="Specialization List" >Specialization List</a></li>
 
                                     <li><a  href="error.html"  title="Change of Degree Program / Campus" >Change of Degree Program / Campus</a></li>
 
@@ -232,15 +232,15 @@
                         </li>
 
 
-                        <li class="dropdown ">
+                        <li class="dropdown active">
                             <div class="btn-group">
-                                <a  href="SSCMain.jsp?function=SessGradeRpt"  title="Grades &amp; Records" class="btn">Grades &amp; Records</a>
+                                <a  href="#"  title="Grades &amp; Records" class="btn">Grades &amp; Records</a>
                                 <button class="btn dropdown-toggle" data-toggle="dropdown">
                                     <span class="ubc7-arrow blue down-arrow"></span>
                                 </button>
                                 <ul class="dropdown-menu">
 
-                                    <li><a  href="view-source.html"  title="Your Grades Summary" >Your Grades Summary</a></li>
+                                    <li><a  href="#"  title="Your Grades Summary" >Your Grades Summary</a></li>
 
                                     <li><a  href="error.html"  title="Transfer Credit" >Transfer Credit</a></li>
 
@@ -332,7 +332,7 @@
 
                                     <li><a  href="error.html"  title="Immigration Documents" >Immigration Documents</a></li>
 
-                                    <li><a  href="error.html" target="SSCFunctionWindow"  title="Password Change" >Password Change</a></li>
+                                    <li><a  href="index.html" target="SSCFunctionWindow""  title="Password Change" >Password Change</a></li>
 
                                     <li><a  href="error.html"  title="Indigenous Self-Identification" >Indigenous Self-Identification</a></li>
 
@@ -361,7 +361,7 @@
 
                     </ul>
                     <div id="cwl-logout" class="pull-right">
-                        <form action="error.html" method="POST" class="navbar-form">
+                        <form action="index.html" method="POST" class="navbar-form">
                             <button type="SUBMIT" name="KEY_ACTION_LOGOUT" class="btn btn-danger" value="Logout">
                                 Logout
                             </button>
@@ -385,7 +385,15 @@
 
 
         <li>
-            <a href="#">Home</a>
+            <a href="/sscportal/servlets/SSCMain.jsp">Home</a>
+            <span class="divider">/</span>
+        </li>
+        <li>
+            <a  href="SSCMain.jsp?function=SessGradeRpt"  title="Grades &amp; Records" >Grades &amp; Records</a>
+            <span class="divider">/</span>
+        </li>
+        <li class="active">
+            Your Grades Summary
         </li>
 
     </ul><!-- End of UBC Unit Breadcrumbs -->
@@ -401,10 +409,9 @@
 
 
 
-            <!-- LOGGED IN WITH NO ACTIVE MENU ITEM -->
+            <!-- LOGGED IN WITH ACTIVE MENU ITEM -->
 
-            <h2>Hi Guo, Junyi, Welcome to the Student Service Centre.</h2>
-            <div class="span4 btn-group-vertical">
+            <div class="span3 docs-sidebar" role="navigation">
 
 
 
@@ -415,130 +422,228 @@
 
 
 
+                <ul class="nav nav-list bootstrap-sidenav hidden-md-down">
 
 
+                    <li class="active">
+                        <a  href="SSCMain.jsp?function=SessGradeRpt"  title="Your Grades Summary" ><div class="ubc7-arrow right-arrow"></div>Your Grades Summary</a>
+                    </li>
 
-                <a  href="/sscportal/servlets/ServiceTicketServer?service=https://courses.students.ubc.ca/cs/secure/login?serviceType=courses" target="SSCFunctionWindow""  title="Course Schedule" class="btn btn-large">Course Schedule</a>
 
-                <a  href="SSCMain.jsp?function=Finances-Summary"  title="Financial Summary" class="btn btn-large">Financial Summary</a>
 
-                <a  href="SSCMain.jsp?function=SessGradeRpt"  title="Your Grades Summary" class="btn btn-large">Your Grades Summary</a>
+                    <li class="">
+                        <a  href="SSCMain.jsp?function=TransferCredit"  title="Transfer Credit" ><div class="ubc7-arrow right-arrow"></div>Transfer Credit</a>
+                    </li>
 
-                <a  href="SSCMain.jsp?function=ExamSchedule"  title="Exams Schedule" class="btn btn-large">Exams Schedule</a>
 
-            </div>
-            <div class="span6">
 
 
 
+                    <li>
 
+                        <a  href="SSCMain.jsp?function=TranscriptRequest"  title="Transcript Requests" ><div class="ubc7-arrow right-arrow"></div>Transcript Requests</a>
+                    </li>
 
 
 
+                    <li class="">
+                        <a  href="SSCMain.jsp?function=TranscriptRequest"  title="Order Transcripts" class="nav-sub"><div class="ubc7-arrow right-arrow"></div>Order Transcripts</a>
+                    </li>
 
 
 
 
 
 
+                    <li class="">
+                        <a  href="SSCMain.jsp?function=TranscriptLog"  title="View Order History" class="nav-sub"><div class="ubc7-arrow right-arrow"></div>View Order History</a>
+                    </li>
 
 
 
 
-            </div>
-            <div class="span11" id="messages-alerts" >
 
 
+                    <li>
 
+                        <a  href="SSCMain.jsp?function=ReplacementDiplomaRequest"  title="Replacement/Certified Diploma Requests" ><div class="ubc7-arrow right-arrow"></div>Replacement/Certified Diploma Requests</a>
+                    </li>
 
 
 
+                    <li class="">
+                        <a  href="SSCMain.jsp?function=ReplacementDiplomaRequest"  title="Order Replacement Diploma/Certified Copy" class="nav-sub"><div class="ubc7-arrow right-arrow"></div>Order Replacement Diploma/Certified Copy</a>
+                    </li>
 
 
 
 
 
 
+                    <li class="">
+                        <a  href="SSCMain.jsp?function=DiplomaLog"  title="View Diploma/Certified Copy History" class="nav-sub"><div class="ubc7-arrow right-arrow"></div>View Diploma/Certified Copy History</a>
+                    </li>
 
 
 
-                <script src="/static/ssc/scripts/importantMessages.js" type="text/javascript" charset="utf-8"></script>
 
+                    <li class="">
+                        <a  href="SSCMain.jsp?function=StudentLetters"  title="Proof of Enrolment Letters" ><div class="ubc7-arrow right-arrow"></div>Proof of Enrolment Letters</a>
+                    </li>
 
 
 
+                    <li class="">
+                        <a  href="SSCMain.jsp?function=StudentCompletionLetters"  title="Program Completion Letter" ><div class="ubc7-arrow right-arrow"></div>Program Completion Letter</a>
+                    </li>
 
 
 
+                    <li class="">
+                        <a  href="SSCMain.jsp?function=HighSchoolRecord"  title="High School Record" ><div class="ubc7-arrow right-arrow"></div>High School Record</a>
+                    </li>
 
 
 
-            </div>
+                    <li class="">
+                        <a  href="/sscportal/servlets/ServiceTicketServer?service=https://ssc.adm.ubc.ca/webvote/servlets/login" target="SSCFunctionWindow""  title="WebVote" ><div class="ubc7-arrow right-arrow"></div>WebVote</a>
+                    </li>
 
-            <div class="span3 list-vertical">
 
-
-
-
-
-
-                <h3>Need help?</h3>
-                <ul>
-                    <li><a href="#" onclick="openFAQDialog();">FAQs</a></li>
-                    <li><a href="#" onclick="openFAQDialog('','VideoTutorials');">Video Tutorials</a></li>
-                    <li><a href="#" onclick="openFAQDialog('ContactUs','ContactUs3');">Technical Support</a></li>
-                    <li><a target="ssc_help" href="http://www.askme.ubc.ca">Ask Me @ UBC</a></li>
-                </ul></div>
-            <div class="span6">
-
-
-
-
-
-
-
-
-
-
-
-
-            </div>
-            <!-- LOGGED IN WITH NO ACTIVE MENU ITEM -->
-
-        </div>
-    </div>
-    <!-- End of Content Area -->
-
-    <footer id="ubc7-footer" class="expand" role="contentinfo">
-        <div class="row-fluid expand" id="ubc7-unit-footer">
-            <div class="span10" id="ubc7-unit-address">
-                <div id="ubc7-address-location">
-                    <span id="ubc7-address-city">Vancouver | Kelowna</span>, <span id="ubc7-address-province" title="British Columbia">BC</span> <span id="ubc7-address-country">Canada</span>
-                </div>
-                <div id="ubc7-address"><a href="https://www.askme.ubc.ca/form/s/" target="_blank" class="active">Contact Us</a></div>
-            </div>
-        </div>
-        <div class="row-fluid expand ubc7-back-to-top">
-            <div class="span2">
-                <a href="#">Back to top <div class="ubc7-arrow up-arrow grey"></div></a>
-            </div>
-        </div>
-        <div class="row-fluid expand" id="ubc7-global-footer">
-            <div class="span5" id="ubc7-signature"><a href="//www.ubc.ca/">The University of British Columbia</a></div>
-            <div class="span7" id="ubc7-footer-menu">
-            </div>
-        </div>
-        <div class="row-fluid expand" id="ubc7-minimal-footer">
-            <div class="span12">
-                <ul>
-                    <li><a href="//cdn.ubc.ca/clf/ref/emergency">Emergency Procedures</a> <span class="divider">|</span></li>
-                    <li><a href="//cdn.ubc.ca/clf/ref/terms">Terms of Use</a> <span class="divider">|</span></li>
-                    <li><a href="//cdn.ubc.ca/clf/ref/copyright">Copyright</a> <span class="divider">|</span></li>
-                    <li><a href="//cdn.ubc.ca/clf/ref/accessibility">Accessibility</a></li>
                 </ul>
             </div>
+            <div class="span7" role="main" id="content-main">
+                <iframe width="100%" id="iframe-main" name="iframe-main" style="height: 770px;"
+
+                        src="grades_summary.html"
+                        scrolling="no" frameborder="0" "></iframe>
+            </div>
+            <div class="span2">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div class="accordion sidenav simple" id="sscFAQs">
+
+                    <ul class="nav nav-list">
+                        <li class="nav-header">
+                            <a href="#" onclick="openFAQDialog('SessGradeRpt','GradesRecords'); return false;">View All FAQs</a>
+                        </li>
+                    </ul>
+
+
+
+                    <!-- FAQ 0 -->
+                    <div class="accordion-group">
+                        <div class="accordion-heading">
+                            <a class="accordion-toggle" data-toggle="collapse" data-parent="#sscFAQs" href="#0_text">
+                                <div class="ubc7-arrow down-arrow"></div>
+                            </a>
+                            <a class="link" data-toggle="collapse"  href="#0_text" style="line-height:1.25em;">What does "standing" refer to?</a>
+                        </div>
+                        <div id="0_text" class="accordion-body collapse">
+                            <div class="accordion-inner" style="line-height:1.25em;">
+                                <div style="margin:1em;" "id="faq-204">Standing refers to your status in a particular course. It may refer to the grade you received, or any special status you may have.</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of FAQ 0 -->
+
+
+
+
+                <!-- FAQ 1 -->
+                <div class="accordion-group">
+                    <div class="accordion-heading">
+                        <a class="accordion-toggle" data-toggle="collapse" data-parent="#sscFAQs" href="#1_text">
+                            <div class="ubc7-arrow down-arrow"></div>
+                        </a>
+                        <a class="link" data-toggle="collapse"  href="#1_text" style="line-height:1.25em;">Under what session will my distance education grades appear?</a>
+                    </div>
+                    <div id="1_text" class="accordion-body collapse">
+                        <div class="accordion-inner" style="line-height:1.25em;">
+                            <div style="margin:1em;" "id="faq-205">The distance education grade will appear in the session in which the course was completed.<br><br></div>
+                    </div>
+                </div>
+            </div>
+            <!-- End of FAQ 1 -->
+
+
+
+
+            <!-- FAQ 2 -->
+            <div class="accordion-group">
+                <div class="accordion-heading">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#sscFAQs" href="#2_text">
+                        <div class="ubc7-arrow down-arrow"></div>
+                    </a>
+                    <a class="link" data-toggle="collapse"  href="#2_text" style="line-height:1.25em;">Under what session will my supplemental exam grades appear?</a>
+                </div>
+                <div id="2_text" class="accordion-body collapse">
+                    <div class="accordion-inner" style="line-height:1.25em;">
+                        <div style="margin:1em;" "id="faq-278">The supplemental grade will appear as a separate course (called supplemental) in the same session as the original course.</div>
+                </div>
+            </div>
         </div>
-    </footer>
+        <!-- End of FAQ 2 -->
+
+
+
+    </div>
+
+
+    <div id="faqhelp" class="hidden" style="position:absolute; top:100; left:-400; width:500; height:500">
+
+    </div>
+</div>
+
+<!-- LOGGED IN WITH ACTIVE MENU ITEM -->
+</div>
+</div>
+<!-- End of Content Area -->
+
+<footer id="ubc7-footer" class="expand" role="contentinfo">
+    <div class="row-fluid expand" id="ubc7-unit-footer">
+        <div class="span10" id="ubc7-unit-address">
+            <div id="ubc7-address-location">
+                <span id="ubc7-address-city">Vancouver | Kelowna</span>, <span id="ubc7-address-province" title="British Columbia">BC</span> <span id="ubc7-address-country">Canada</span>
+            </div>
+            <div id="ubc7-address"><a href="https://www.askme.ubc.ca/form/s/" target="_blank" class="active">Contact Us</a></div>
+        </div>
+    </div>
+    <div class="row-fluid expand ubc7-back-to-top">
+        <div class="span2">
+            <a href="#">Back to top <div class="ubc7-arrow up-arrow grey"></div></a>
+        </div>
+    </div>
+    <div class="row-fluid expand" id="ubc7-global-footer">
+        <div class="span5" id="ubc7-signature"><a href="//www.ubc.ca/">The University of British Columbia</a></div>
+        <div class="span7" id="ubc7-footer-menu">
+        </div>
+    </div>
+    <div class="row-fluid expand" id="ubc7-minimal-footer">
+        <div class="span12">
+            <ul>
+                <li><a href="//cdn.ubc.ca/clf/ref/emergency">Emergency Procedures</a> <span class="divider">|</span></li>
+                <li><a href="//cdn.ubc.ca/clf/ref/terms">Terms of Use</a> <span class="divider">|</span></li>
+                <li><a href="//cdn.ubc.ca/clf/ref/copyright">Copyright</a> <span class="divider">|</span></li>
+                <li><a href="//cdn.ubc.ca/clf/ref/accessibility">Accessibility</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
 </div> <!-- /container -->
 <!-- Placed javascript at the end for faster loading -->
 
