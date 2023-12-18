@@ -173,11 +173,11 @@
     <ul style="overflow:auto">
         <li><a href="#tabs-all" onclick="currentTab='all'; calculate();"><span>All Sessions</span></a></li>
 
-        <li><a href="#tabs-2020W" onclick="currentTab='2022W'; calculate();"><span>2022W</span></a></li>
+        <li><a href="#tabs-2022W" onclick="currentTab='2022W'; calculate();"><span>2022W</span></a></li>
 
-        <li><a href="#tabs-2020W" onclick="currentTab='2022S'; calculate();"><span>2022S</span></a></li>
+        <li><a href="#tabs-202S" onclick="currentTab='2022S'; calculate();"><span>2022S</span></a></li>
 
-        <li><a href="#tabs-2020W" onclick="currentTab='2021W'; calculate();"><span>2021W</span></a></li>
+        <li><a href="#tabs-2021W" onclick="currentTab='2021W'; calculate();"><span>2021W</span></a></li>
 
         <li><a href="#tabs-2021S" onclick="currentTab='2021S'; calculate();"><span>2021S</span></a></li>
 
@@ -201,6 +201,103 @@
                 <td class="listHeader" align="center">Class Avg</td>
                 <td class="listHeader" align="center">Standing</td>
             </tr>
+
+            <tr id="row-all-11" class="listRow" style="cursor: pointer" onclick="$('#manRadio').attr('checked',true); $('#row-all-11 td').toggleClass('listHighlight'); recalculate()">
+                <td class="listRow" align="center">LFS&nbsp;250</td>
+                <td class="listRow" align="center">201</td>
+                <td class="listRow grade" grade="65" credits="6.0" align="center">65</td>
+                <td class="listRow" align="center">C+</td>
+                <td class="listRow" align="center">2021W</td>
+                <td class="listRow" align="center">2</td>
+                <td class="listRow" align="center">BSAB</td>
+                <td class="listRow" align="center">2</td>
+                <td class="listRow" align="center">6.0</td>
+                <td class="listRow" align="center">86</td>
+                <td class="listRow" align="center"></td>
+            </tr>
+
+            <tr id="row-all-12" class="listRow" style="cursor: pointer" onclick="$('#manRadio').attr('checked',true); $('#row-all-12 td').toggleClass('listHighlight'); recalculate()">
+                <td class="listRow" align="center">LFS&nbsp;252</td>
+                <td class="listRow" align="center">202</td>
+                <td class="listRow grade" grade="65" credits="3.0" align="center">65</td>
+                <td class="listRow" align="center">C+</td>
+                <td class="listRow" align="center">2021W</td>
+                <td class="listRow" align="center">2</td>
+                <td class="listRow" align="center">BSAB</td>
+                <td class="listRow" align="center">2</td>
+                <td class="listRow" align="center">3.0</td>
+                <td class="listRow" align="center">86</td>
+                <td class="listRow" align="center"></td>
+            </tr>
+
+            <tr id="row-all-13" class="listRow" style="cursor: pointer" onclick="$('#manRadio').attr('checked',true); $('#row-all-13 td').toggleClass('listHighlight'); recalculate()">
+                <td class="listRow" align="center">BIOL&nbsp;200</td>
+                <td class="listRow" align="center">203</td>
+                <td class="listRow grade" grade="65" credits="3.0" align="center">65</td>
+                <td class="listRow" align="center">C+</td>
+                <td class="listRow" align="center">2021W</td>
+                <td class="listRow" align="center">2</td>
+                <td class="listRow" align="center">BSAB</td>
+                <td class="listRow" align="center">2</td>
+                <td class="listRow" align="center">3.0</td>
+                <td class="listRow" align="center">86</td>
+                <td class="listRow" align="center"></td>
+            </tr>
+
+            <tr id="row-all-14" class="listRow" style="cursor: pointer" onclick="$('#manRadio').attr('checked',true); $('#row-all-14 td').toggleClass('listHighlight'); recalculate()">
+                <td class="listRow" align="center">BIOL&nbsp;201</td>
+                <td class="listRow" align="center">204</td>
+                <td class="listRow grade" grade="65" credits="3.0" align="center">65</td>
+                <td class="listRow" align="center">C+</td>
+                <td class="listRow" align="center">2021W</td>
+                <td class="listRow" align="center">2</td>
+                <td class="listRow" align="center">BSAB</td>
+                <td class="listRow" align="center">2</td>
+                <td class="listRow" align="center">3.0</td>
+                <td class="listRow" align="center">86</td>
+                <td class="listRow" align="center"></td>
+            </tr>
+
+            <tr id="row-all-15" class="listRow" style="cursor: pointer" onclick="$('#manRadio').attr('checked',true); $('#row-all-15 td').toggleClass('listHighlight'); recalculate()">
+                <td class="listRow" align="center">CHEM&nbsp;233</td>
+                <td class="listRow" align="center">205</td>
+                <td class="listRow grade" grade="65" credits="3.0" align="center">65</td>
+                <td class="listRow" align="center">C+</td>
+                <td class="listRow" align="center">2021W</td>
+                <td class="listRow" align="center">2</td>
+                <td class="listRow" align="center">BSAB</td>
+                <td class="listRow" align="center">2</td>
+                <td class="listRow" align="center">3.0</td>
+                <td class="listRow" align="center">86</td>
+                <td class="listRow" align="center"></td>
+            </tr>
+
+            <tr id="row-all-16" class="listRow" style="cursor: pointer" onclick="$('#manRadio').attr('checked',true); $('#row-all-16 td').toggleClass('listHighlight'); recalculate()">
+                <td class="listRow" align="center">CHEM&nbsp;235</td>
+                <td class="listRow" align="center">206</td>
+                <td class="listRow grade" grade="65" credits="1.0" align="center">65</td>
+                <td class="listRow" align="center">C+</td>
+                <td class="listRow" align="center">2021W</td>
+                <td class="listRow" align="center">2</td>
+                <td class="listRow" align="center">BSAB</td>
+                <td class="listRow" align="center">2</td>
+                <td class="listRow" align="center">1.0</td>
+                <td class="listRow" align="center">86</td>
+                <td class="listRow" align="center"></td>
+            </tr>
+
+            <tr id="row-all-17" class="listRow" style="cursor: pointer" onclick="$('#manRadio').attr('checked',true); $('#row-all-17 td').toggleClass('listHighlight'); recalculate()">
+                <td class="listRow" align="center">MICB&nbsp;211</td>
+                <td class="listRow" align="center">207</td>
+                <td class="listRow grade" grade="65" credits="3.0" align="center">65</td>
+                <td class="listRow" align="center">C+</td>
+                <td class="listRow" align="center">2021W</td>
+                <td class="listRow" align="center">2</td>
+                <td class="listRow" align="center">BSAB</td>
+                <td class="listRow" align="center">2</td>
+                <td class="listRow" align="center">3.0</td>
+                <td class="listRow" align="center">86</td>
+                <td class="listRow" align="center"></td>
 
             <tr id="row-all-0"class="listRow" style="cursor: pointer" onclick="$('#manRadio').attr('checked',true); $('#row-all-0 td').toggleClass('listHighlight'); recalculate()">
                 <td class="listRow" align="center">JAPN&nbsp;100</td>
@@ -226,7 +323,7 @@
                 <td class="listRow" align="center">2</td>
                 <td class="listRow" align="center">BSAB</td>
                 <td class="listRow" align="center">1</td>
-                <td class="listRow" align="center">0.0</td>
+                <td class="listRow" align="center">3.0</td>
                 <td class="listRow" align="center">77</td>
                 <td class="listRow" align="center"></td>
             </tr>
@@ -240,7 +337,7 @@
                 <td class="listRow" align="center">2</td>
                 <td class="listRow" align="center">BSAB</td>
                 <td class="listRow" align="center">1</td>
-                <td class="listRow" align="center">0.0</td>
+                <td class="listRow" align="center">3.0</td>
                 <td class="listRow" align="center">80</td>
                 <td class="listRow" align="center"></td>
             </tr>
@@ -268,7 +365,7 @@
                 <td class="listRow" align="center">2</td>
                 <td class="listRow" align="center">BSAB</td>
                 <td class="listRow" align="center">1</td>
-                <td class="listRow" align="center">0.0</td>
+                <td class="listRow" align="center">3.0</td>
                 <td class="listRow" align="center">73</td>
                 <td class="listRow" align="center"></td>
             </tr>
@@ -282,7 +379,7 @@
                 <td class="listRow" align="center">1</td>
                 <td class="listRow" align="center">BSAB</td>
                 <td class="listRow" align="center">1</td>
-                <td class="listRow" align="center">0.0</td>
+                <td class="listRow" align="center">3.0</td>
                 <td class="listRow" align="center">69</td>
                 <td class="listRow" align="center"></td>
             </tr>
@@ -343,9 +440,151 @@
                 <td class="listRow" align="center"></td>
             </tr>
 
+            </tr>
+
+
         </table>
 
     </div>
+
+    <div id="tabs-2021W">
+        <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+            <!-- 0 REGI -->
+            <!-- 1 2021-05-12 -->
+            <!-- 2 1 -->
+            <!-- 3 910587856 -->
+            <!-- 4 Bachelor of Science in Applied Biology             -->
+            <!-- 5  -->
+            <!-- 6  -->
+            <!-- 7 Vancouver                                          -->
+
+            <tr><td>&nbsp;</td></tr>
+            <tr>
+                <td colspan='10'><div class='listTitle'>Summary - Vancouver                                          Campus</div>
+                    <table width='100%' border='1' >
+                        <tr><td colspan='10' class="listRow"><b>Program</b></td><td class='listRow' width='60%'>Bachelor of Science in Applied Biology            </td></tr>
+
+
+                        <tr><td colspan='10' class="listRow"><b>Year Level</b></td><td class='listRow' width='60%'>2</td></tr>
+
+                        <tr><td colspan="10" class="listRow"><b>Sessional Average</b></td><td class='listRow' width='60%'>65.2%</td></tr>
+                        <tr><td colspan="10" class="listRow"><b>Sessional Standing</b></td><td class='listRow' width='60%'>Failed Year</td></tr>
+                        <tr><td colspan="10" class="listRow"><b>Sessional Evaluation Decision</b></td><td class='listRow' width='60%'>Required to Discontinue from Faculty</td></tr>
+
+                        <tr><td colspan='10' class='listRow'><b>Comment</b></td><td class='listRow' width='60%'>Deficiency in program. Must consult Faculty.         </td></tr>
+
+                    </table><br/>
+            <tr>
+            <tr>
+                <td class="listHeader">Term</td>
+                <td class="listHeader">Course</td>
+                <td class="listHeader">Section</td>
+                <td class="listHeader">Term</td>
+                <td class="listHeader">Pct %</td>
+                <td class="listHeader">Grade</td>
+                <td class="listHeader">Stdg</td>
+                <td class="listHeader">Credits<br>Earned</td>
+                <td class="listHeader">Class<br>Average</td>
+                <td class="listHeader">Class<br>Size</td>
+            </tr>
+
+            <tr id="row-2021W-1" class="listRow" style="cursor: pointer" onclick="$('#manRadio').attr('checked',true); $('#row-2021W-1 td').toggleClass('listHighlight'); recalculate()">
+                <td class="listRow">2</td>
+                <td class="listRow">LFS&nbsp;250</td>
+                <td class="listRow">201</td>
+                <td class="listRow">1</td>
+                <td class="listRow grade" grade="65" credits="6.0">65</td>
+                <td class="listRow">C+</td>
+                <td class="listRow">&nbsp;</td>
+                <td class="listRow">6.0</td>
+                <td class="listRow">86</td>
+                <td class="listRow">200</td>
+            </tr>
+
+            <tr id="row-2021W-2" class="listRow" style="cursor: pointer" onclick="$('#manRadio').attr('checked',true); $('#row-2021W-2 td').toggleClass('listHighlight'); recalculate()">
+                <td class="listRow">2</td>
+                <td class="listRow">LFS&nbsp;252</td>
+                <td class="listRow">202</td>
+                <td class="listRow">1</td>
+                <td class="listRow grade" grade="65" credits="3.0">65</td>
+                <td class="listRow">C+</td>
+                <td class="listRow">&nbsp;</td>
+                <td class="listRow">3.0</td>
+                <td class="listRow">86</td>
+                <td class="listRow">150</td>
+            </tr>
+
+            <tr id="row-2021W-3" class="listRow" style="cursor: pointer" onclick="$('#manRadio').attr('checked',true); $('#row-2021W-3 td').toggleClass('listHighlight'); recalculate()">
+                <td class="listRow">2</td>
+                <td class="listRow">BIOL&nbsp;200</td>
+                <td class="listRow">203</td>
+                <td class="listRow">1</td>
+                <td class="listRow grade" grade="65" credits="3.0">65</td>
+                <td class="listRow">C+</td>
+                <td class="listRow">&nbsp;</td>
+                <td class="listRow">3.0</td>
+                <td class="listRow">86</td>
+                <td class="listRow">180</td>
+            </tr>
+
+            <tr id="row-2021W-4" class="listRow" style="cursor: pointer" onclick="$('#manRadio').attr('checked',true); $('#row-2021W-4 td').toggleClass('listHighlight'); recalculate()">
+                <td class="listRow">2</td>
+                <td class="listRow">BIOL&nbsp;201</td>
+                <td class="listRow">204</td>
+                <td class="listRow">2</td>
+                <td class="listRow grade" grade="65" credits="3.0">65</td>
+                <td class="listRow">C+</td>
+                <td class="listRow">&nbsp;</td>
+                <td class="listRow">3.0</td>
+                <td class="listRow">86</td>
+                <td class="listRow">180</td>
+            </tr>
+
+            <tr id="row-2021W-5" class="listRow" style="cursor: pointer" onclick="$('#manRadio').attr('checked',true); $('#row-2021W-5 td').toggleClass('listHighlight'); recalculate()">
+                <td class="listRow">2</td>
+                <td class="listRow">CHEM&nbsp;233</td>
+                <td class="listRow">205</td>
+                <td class="listRow">1</td>
+                <td class="listRow grade" grade="65" credits="3.0">65</td>
+                <td class="listRow">C+</td>
+                <td class="listRow">&nbsp;</td>
+                <td class="listRow">3.0</td>
+                <td class="listRow">86</td>
+                <td class="listRow">160</td>
+            </tr>
+
+            <tr id="row-2021W-6" class="listRow" style="cursor: pointer" onclick="$('#manRadio').attr('checked',true); $('#row-2021W-6 td').toggleClass('listHighlight'); recalculate()">
+                <td class="listRow">2</td>
+                <td class="listRow">CHEM&nbsp;235</td>
+                <td class="listRow">206</td>
+                <td class="listRow">2</td>
+                <td class="listRow grade" grade="65" credits="1.0">65</td>
+                <td class="listRow">C+</td>
+                <td class="listRow">&nbsp;</td>
+                <td class="listRow">1.0</td>
+                <td class="listRow">86</td>
+                <td class="listRow">160</td>
+            </tr>
+
+            <tr id="row-2021W-7" class="listRow" style="cursor: pointer" onclick="$('#manRadio').attr('checked',true); $('#row-2021W-7 td').toggleClass('listHighlight'); recalculate()">
+                <td class="listRow">2</td>
+                <td class="listRow">MICB&nbsp;211</td>
+                <td class="listRow">207</td>
+                <td class="listRow">2</td>
+                <td class="listRow grade" grade="65" credits="3.0">65</td>
+                <td class="listRow">C+</td>
+                <td class="listRow">&nbsp;</td>
+                <td class="listRow">3.0</td>
+                <td class="listRow">86</td>
+                <td class="listRow">150</td>
+            </tr>
+
+
+
+
+            <!-- end of sessions if-else -->
+        </table>
+    </div><!-- end of sessions table -->
 
 
     <div id="tabs-2021S">
@@ -435,7 +674,7 @@
                         <tr><td colspan='10' class="listRow"><b>Year Level</b></td><td class='listRow' width='60%'>1</td></tr>
 
                         <tr><td colspan="10" class="listRow"><b>Sessional Average</b></td><td class='listRow' width='60%'>65.2%</td></tr>
-                        <tr><td colspan="10" class="listRow"><b>Sessional Standing</b></td><td class='listRow' width='60%'>Failed Year</td></tr>
+                        <tr><td colspan="10" class="listRow"><b>Sessional Standing</b></td><td class='listRow' width='60%'>Successes Year</td></tr>
                         <tr><td colspan="10" class="listRow"><b>Sessional Evaluation Decision</b></td><td class='listRow' width='60%'>Required to Discontinue from Faculty</td></tr>
 
                         <tr><td colspan='10' class='listRow'><b>Comment</b></td><td class='listRow' width='60%'>Deficiency in program. Must consult Faculty.         </td></tr>
@@ -556,7 +795,7 @@
 
                 <td class="listRow">&nbsp;</td>
 
-                <td class="listRow">0.0</td>
+                <td class="listRow">3.0</td>
 
                 <td class="listRow">69</td>
 
@@ -578,7 +817,7 @@
 
                 <td class="listRow">&nbsp;</td>
 
-                <td class="listRow">0.0</td>
+                <td class="listRow">3.0</td>
 
                 <td class="listRow">73</td>
 
@@ -622,7 +861,7 @@
 
                 <td class="listRow">&nbsp;</td>
 
-                <td class="listRow">0.0</td>
+                <td class="listRow">3.0</td>
 
                 <td class="listRow">80</td>
 
@@ -644,18 +883,13 @@
 
                 <td class="listRow">&nbsp;</td>
 
-                <td class="listRow">0.0</td>
+                <td class="listRow">3.0</td>
 
                 <td class="listRow">77</td>
 
                 <td class="listRow">252</td>
 
             </tr>
-
-
-
-
-
             <!-- end of sessions if-else -->
         </table>
     </div><!-- end of sessions table -->  <!-- end of sessions while loop --> <!-- End Page Content -->
